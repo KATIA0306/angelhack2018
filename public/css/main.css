@@ -1,0 +1,35 @@
+#mainCards {
+  padding-top: 60px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.login {
+  /* background-color: rgba(139, 86, 171, 0.7); */
+  background-color: #cd5c5c;
+  border: transparent;
+
+}
+
+.icons {
+  display: inline-flex;
+}
+
+.mainCard {
+  height: 370px;
+}
+
+body {
+  /* background-color: #ffefd5; */
+  /* background-color: rgba(213, 202, 240, 0.5); */
+}
+
+.navbar {
+background-color: #faebd7;
+}
+
+.page-footer {
+background-color: #e9967a;
+}
