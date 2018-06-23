@@ -13,9 +13,6 @@ class Body extends React.Component {
                     <Route path='/employment' component={Employment}/>
                     <Route path='/schools' component={Schools}/>
                 </Switch>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
             </body>
         );
     }
