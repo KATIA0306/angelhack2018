@@ -3,34 +3,49 @@ import React from 'react';
 export default class Footer extends React.Component {
     render() {
         return (
-          <footer className="page-footer font-small blue pt-4 mt-4">
-            <div className="container-fluid text-center text-md-left">
-              <div className="row">
-                <div className="col-md-6 mt-md-0 mt-3">
-                  <h5 className="text-uppercase">Footer Content</h5>
-                  <p>Here you can use rows and columns here to organize your footer content.</p>
-                </div>
-                <hr className="clearfix w-100 d-md-none pb-3" />
-                <div className="col-md-6 mb-md-0 mb-3">
-                  <h5 className="text-uppercase">Links</h5>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                      <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                      <a href="#!">Link 3</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="footer-copyright text-center py-3">© 2018 Copyright:
-              <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
-            </div>
-          </footer>
+          <footer class="footercolor">
+           <div class="row">
+               <div class="col-lg-8 col-md-8 col-sm-4 offset-lg-1">
+                   <p>
+                       <strong> About us </strong>
+                   </p>
+                   <p>
+                       <strong> Culture </strong>
+                   </p>
+                   <p>
+                       <strong> Blog </strong>
+                   </p>
+                   <p>
+                       <strong> Careers </strong>
+                   </p>
+                   <p>
+                       <strong> Contact </strong>
+                   </p>
+               </div>
+           </div>
+
+                   <div class="icons">
+                       <p class="pspacing">Privacy</p>
+                       <p class="pspacing">API</p>
+                       <p class="pspacing">Policy </p>
+                       <p class="pspacing">CSR</p>
+                       <p class="pspacing">Security</p>
+                       <p class="pspacing">Sitemap</p>
+                        <ul class=" row list-inline ">
+                           <li class="list-inline-item ">
+                               <i class="fab fa-facebook"></i>
+                           </li>
+                           <li class="list-inline-item ">
+                               <i class="fab fa-instagram"></i>
+                           </li>
+                           <li class="list-inline-item ">
+                               <i class="fab fa-twitter"></i>
+                           </li>
+                       </ul>
+                   </div>
+
+       </footer>
+
         );
     }
 }

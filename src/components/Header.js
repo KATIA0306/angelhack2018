@@ -13,10 +13,10 @@ export default class Header extends React.Component {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item">
-                    <Link to="/schools"><a className="nav-link" href="#">Schools</a></Link>
+                    <Link to="/schools"><a className="nav-link" href="#">About us</a></Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/employment"><a className="nav-link" href="#">Employment</a></Link>
+                    <Link to="/employment"><a className="nav-link" href="#">Contact</a></Link>
                 </li>
               </ul>
               <form className="form-inline my-2 my-lg-0">
