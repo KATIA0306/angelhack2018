@@ -7,7 +7,7 @@ export default class Home extends React.Component {
             <body>
             <div className = "container" id = "mainCards">
               <div className = "row">
-                <div className="offset-lg-1 col-lg-5 col-md-5">
+                <div className="col-lg-6 col-md-6">
                   <div className="card mainCard">
                     <Link to='/schools'>
                       <img className="card-img-top" src="images/study.jpg" alt="Card image cap" />
@@ -19,7 +19,7 @@ export default class Home extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-5 col-md-5">
+                <div className="col-lg-6 col-md-6">
                   <div className="card mainCard">
                     <Link to='/employment'>
                       <img className="card-img-top" src="images/career.jpg" alt="Card image cap" />
