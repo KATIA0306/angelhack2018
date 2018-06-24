@@ -3,20 +3,19 @@ import React from 'react';
 export default class Schools extends React.Component {
     render() {
         return (
-<div>
-<h2>For International Graduates licensure process </h2>
-<h3>Steps</h3>
+<div id="schoolsPage">
+<h2>International Graduates licensure process </h2>
 
-<h2>1. Document Source verification</h2>
+<h5>1. Document Source verification</h5>
 <ul>
-<li>Medical Degree- listed on World Directory of Medical Schools</li>
+<li>Medical Degree - listed on World Directory of Medical Schools</li>
 <li>Transcript</li>
 <li>Medical license from home country</li>
 <li>Passport</li>
 </ul>
 <p>Exceptions for countries</p>
 <p>For application go to <a href="https://physiciansapply.ca" /> </p>
-<h2>2. Examination</h2>
+<h5>2. Examination</h5>
 <p>IMGs are expected to write a series of examination and attend Clinical assessment rotation</p>
 <ul>
 <li>Medical Counsel of Canada Evaluating Examination(MCCEE)</li>
@@ -26,7 +25,7 @@ export default class Schools extends React.Component {
 <li>Medical Counsel of Canada Qualifying Examination (QE-2)</li>
 </ul>
 <p>For application go to Medical Counsel of Canada <a href="https://mcc.ca/" /> </p>
-<h2>3. Application for residency (Post graduate) matching program</h2>
+<h5>3. Application for residency (Post graduate) matching program</h5>
 <p>Application on Canadian Resident Matching Service takes place every year</p>
 <p>There are two programs IMGs can apply</p>
 <ul>
