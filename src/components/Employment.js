@@ -1,5 +1,4 @@
 import React from 'react';
-import CollapsableSection from './CollapsableSection';
 
 export default class Employment extends React.Component {
     render() {
