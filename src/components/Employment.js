@@ -41,7 +41,8 @@ export default class Employment extends React.Component {
                             <a data-toggle="collapse" href="#collapsableJobMarket" aria-expanded="false" aria-controls="collapsableJobMarket"><h3 class="sectionTitle">Job Market</h3></a>
                             <div className="collapse" id="collapsableJobMarket">
                                 <div className="card card-body">
-                                    Charts <a href="https://www.jobbank.gc.ca/marketreport/summary-occupation/1357/ca">statistics</a>
+                                    <img src="images/stats.jpg" className="statsExample" />
+                                    Charts <a href="https://www.jobbank.gc.ca/studentdashboard/FOS20901/LOS06">statistics</a>
 
                                 </div>
                             </div>
