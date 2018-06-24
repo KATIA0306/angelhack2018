@@ -14,7 +14,7 @@ export default class Home extends React.Component {
                     </Link>
                     <div className="card-body">
                       <Link to='/schools'>
-                        <a href="#" className="btn btn-primary login">Learn more</a>
+                        <a href="#" className="btn btn-primary login">Learn more about studies</a>
                       </Link>
                     </div>
                   </div>
@@ -26,7 +26,7 @@ export default class Home extends React.Component {
                     </Link>
                     <div className="card-body">
                       <Link to='/employment'>
-                        <a href="#" className="btn btn-primary login">Learn more</a>
+                        <a href="#" className="btn btn-primary login">Learn more aboyr careers</a>
                       </Link>
                     </div>
                   </div>

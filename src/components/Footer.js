@@ -4,6 +4,7 @@ export default class Footer extends React.Component {
     render() {
         return (
           <footer class="footercolor">
+          <div id="myFooter">
            <div class="row">
                <div class="col-lg-8 col-md-8 col-sm-4 offset-lg-1">
                    <p>
@@ -22,6 +23,7 @@ export default class Footer extends React.Component {
                        <strong> Contact </strong>
                    </p>
                </div>
+           </div>
            </div>
 
                    <div class="icons">
