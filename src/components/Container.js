@@ -15,7 +15,7 @@ export default class Container extends React.Component {
             </Link>
             <div className="card-body">
               <Link to={this.props.myLink}>
-                <a href="#" className="btn btn-primary login">Learn more about studies</a>
+                <a href="#" className="btn btn-primary login">{this.props.label}</a>
               </Link>
             </div>
           </div>

@@ -4,7 +4,7 @@ export default class Schools extends React.Component {
     render() {
         return (
 <div id="schoolsPage">
-<h2>International Graduates licensure process: </h2>
+<h2>International Medical Graduates licensure process: </h2>
 
 <h5>1. Document Source verification</h5>
 <ul>
